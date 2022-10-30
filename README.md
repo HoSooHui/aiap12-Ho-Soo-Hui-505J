@@ -118,8 +118,12 @@ In the 'Main' branch, there are the below commited files:
     On the plots, it explain the predictors used, starting from the top of the tree, with the Gini rating at each node.
     The plots are useful in explaining the significance of the predictors.
     
-    
-    
+(6) Requirements.txt, generated using PIP freeze > requirement.txt
 
-
-    
+Lastly, I committed all changes directly to Main (Master) via uploading from my local.
+I am using the Visual Code Studio for development and execution over the past 2-3 days.
+Although I have Git Bash connected to Git Hub and through Visual Code Studio Terminal window, I did not go through this interface as I am not
+familiar with this integration. Apologies as the need to complete this assignment over the weekend due to work commitment. I will 
+work on it when given more time.
+ 
+<--- End -->
