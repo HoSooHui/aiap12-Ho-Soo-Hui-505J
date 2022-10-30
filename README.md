@@ -22,7 +22,7 @@ In the 'Main' branch, there are the below commited files:
     #
     #               (7) CONCLUSION AND FOLLOWUP TO TASK 2
     
-    For each of the 7 processes, a summary/observations could be found at the end of the process, and before the begining of the next process.
+    For each of the 7 processes, the summary/observation could be found at the end of the process, and before the begining of the next process.
     
     In addition, the purpose of each step, and the finding for earlier step, are also explained within the step as comments "#".
     
@@ -49,7 +49,7 @@ In the 'Main' branch, there are the below commited files:
     The models are supervised (with labelled categorical response), for classification of "Attrition" or"No Attrition",
     on numerical and categorical predictors.
     
-    Example of suitable algorithms includes KNN, Decision Tree , Logistics Regression, etc.
+    Example of suitable algorithms include KNN, Decision Tree , Logistics Regression, etc.
     
 (2) MLP_Submit.py
     This is on Task 2.
@@ -80,8 +80,8 @@ In the 'Main' branch, there are the below commited files:
     #               (10) Summary and Interpretation
    
     
-    A total of 5 models, on Knn and Decision tree were fitted and validated.
-    Below is (10) Summary and interpretation:
+    A total of 5 models, on Knn and Decision Tree were fitted and validated.
+    Below is '(10) Summary and interpretation':
     
     #====================================================================================================================
     # (10) Summary and Interpretation
@@ -105,16 +105,17 @@ In the 'Main' branch, there are the below commited files:
     print ( f'Thanks for reading. \n')
 
 (3) terminal_log.txt
-    This is generated when the MLP_submitted.py is executed.
+    This is generated when the 'MLP_submitted.py' is executed.
     It contains the confusion matrix, classification report for all the 5 models trained and tested.
     
 (4) X.Knn_model_1_Error_and_KNN_graph.png,  X.Knn_model_2_Error_and_KNN_graph.png,  X.Knn_model_3_Error_and_KNN_graph.png
-    These are the graphs generated when MLP_submitted.py is executed.
-    These graphs plotted the mean error (y-axis), across a range of 1 to 20 KNN neigbours. These will be used in determing the optimised KNN value.
+    These are the graphs generated when 'MLP_submitted.py' is executed.
+    These graphs plotted the mean error (y-axis), across a range of 1 to 20 KNN neigbours. 
+    The plots are useful in determining the optimised KNN value.
     
 (5) X_Tree_Plot_Model_4.png, X_Tree_Plot_Model_5.png
-    These are the decision tree fitted for model 4 and 5.
-    On the plots, it explain the predictors applied starting from top of the tree, with the Gini rating at each node.
+    These are the decision trees fitted for model 4 and 5.
+    On the plots, it explain the predictors used, starting from the top of the tree, with the Gini rating at each node.
     The plots are useful in explaining the significance of the predictors.
     
     
